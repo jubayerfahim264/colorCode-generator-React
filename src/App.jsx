@@ -2,6 +2,7 @@ import React from "react";
 import Products from "./component/Products";
 import Items from "./component/Items";
 import Events from "./component/Events";
+import Practice from "./component/Practice";
 
 const App = () => {
   // const MyID = {
@@ -36,7 +37,8 @@ const App = () => {
         <Products name={"Samsung S24 PRO"} price={"$550"} color={"White"} />
         <Products name={"Samsung S20"} price={"$350"} color={"Grown Black"} /> */}
         {/* <Items /> */}
-        <Events />
+        {/* <Events /> */}
+        <Practice />
       </div>
     </>
   );
