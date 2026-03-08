@@ -11,9 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-src/component/Practice.jsx*
-src/component/Items.jsx*
-src/component/Products.jsx*
+Practice.jsx*
+Items.jsx*
+Products.jsx*
 
 # Editor directories and files
 .vscode/*
