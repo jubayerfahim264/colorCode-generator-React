@@ -7,21 +7,36 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-Practice.jsx*
-Items.jsx*
-Products.jsx*
+# Dependency
+node_modules/
 
-# Editor directories and files
+# Build output
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+
+# Ignore specific React files
+src/component/Practice.jsx
+src/component/Items.jsx
+src/component/Products.jsx
+
+# Editor / IDE
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+
+# OS files
 .DS_Store
+
+# Visual Studio
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# Temp files
+*.swp
+*.swo
